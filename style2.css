@@ -83,7 +83,7 @@ select {
     padding: 10px 10px;
     border: none;
     border-radius: 4px;
-    background-color: #ebc4c4;
+    background-color: #bcba79;
 }
 
 input[type=text], input[type=tel], input[type=email], input[type=url], select {
