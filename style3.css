@@ -63,6 +63,7 @@ h2 {
     padding: 60px 0;
     border: 5px solid green;
     text-align: center;
+    background: linear-gradient(rgba(10, 100, 110, 0.45),rgba(207, 103, 174, 0.75));
   }
 .solid{
     width: 100%;
