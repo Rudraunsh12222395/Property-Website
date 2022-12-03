@@ -57,8 +57,15 @@ h2 {
     color: #fff;
 }
 .form{
-    color: #fff;
+    color: rgb(102, 196, 207);
     margin-top: 10px;
+    background: linear-gradient(rgba(54, 15, 15, 0.45),rgba(223, 160, 160, 0.75));
+    border-radius: 20px;
+}
+.form-style{
+    padding: 3px 5%;
+    align-items: center;
+    justify-content: center;
 }
 textarea {
     width: 50%;
@@ -100,5 +107,4 @@ input[type=text], input[type=tel], input[type=email], input[type=url], select {
     cursor: pointer;
   }
 
-  
   
