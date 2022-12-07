@@ -23,7 +23,7 @@
                 <label for="Name">Name:</label>
                 <input type="text" id="Name" name="Name" required>
                 <label for="Mob. no.">Mob. no.:</label>
-                <input type="tel" id="Mob. no." name="Mob. no." pattern="[0-9]" required>
+                <input type="tel" id="Mob. no." name="Mob. no." pattern="[0-9]{10}" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required><br><br>
                 <label for="location">Property Location url:</label>
@@ -49,7 +49,7 @@
                 <input type="file" id="myfile" name="myfile" multiple required><br><br>
                 <label for="myfile">Upload photo:</label>
                 <input type="file" id="myfile" name="myfile" multiple required><br><br>
-                <input type="submit" value="Upload Property Details" onclick = "alert('Please wait! Details are under verification.')"></input>
+                <button type="submit">Upload Property Details</button>
                 <input type="reset" value="Reset">
             </fieldset>
         </form>
