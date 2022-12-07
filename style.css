@@ -1,8 +1,8 @@
 *{
-   margin: 0;
-   padding: 0;
-   font-family: sans-serif;
-   box-sizing: border-box; 
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box; 
 }
 .banner{
     background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.75)),url("Assets/Images/background.jpg");
@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 .navbar{
     width: 100%;
     margin: auto;
@@ -51,27 +51,26 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
-.form{
+form{
     margin-top: 10px;
     margin-right: auto;
     display: block;
     justify-content: space-between;
     text-align: center;
 }
-.select{
+select{
     color: #333333;
     padding: 8px 20px;
     background-color: aliceblue;
     cursor: pointer;
     border-radius: 10px;
 }
-button {
+button, input[type=reset] {
     background-color: #4CAF50;
     border: none;
     color: white;
     padding: 8px 20px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
@@ -81,7 +80,6 @@ button {
     width: 100%;
     text-align: center;
     background-color: #fff;
-   
 }
 h1{
     font-weight: normal;

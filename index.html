@@ -18,32 +18,32 @@
                 <li> <a href="Contact.html"><b>Contact us</b></a></li>
             </ul>
         </div>
-        <div class="form">
+        <form action="">
             <label for="Location"></label>
-            <select class="select" name="location" id="location">
-                    <option disabled selected>--Location--</option>
-                    <option value="Delhi">Delhi</option>
-                    <option value="Begnaluru">Bengaluru</option>
-                    <option value="Kolkata">Kolkata</option>
-                    <option value="Pune">Pune</option>
-                </select>
-                    <label for="Property type"></label>
-                    <select class="select" name="Property type" id="Property type">
-                    <option value="">--Property type--</option>
-                    <option value="1BHK">1BHK</option>
-                    <option value="2BHK">2BHK</option>
-                    <option value="3BHK">3BHK</option>
-                </select>
-                    <label for="Budget"></label>
-                    <select class="select" name="Budget" id="Budget">
-                    <option value="">--Budget--</option>
-                    <option value="20-30 Lakh">20-30 Lakh</option>
-                    <option value="30-45 Lakh">30-45 Lakh</option>
-                    <option value="45-70 Lakh">45-70 Lakh</option>
-                </select>
-                <button type="submit" onclick = "alert('Searching...Please Wait!')">Search</button>
-                </form>
-        </div>
+            <select name="location" id="location" required>
+                <option value="">--Location--</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Begnaluru">Bengaluru</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Pune">Pune</option>
+            </select>
+            <label for="Property type"></label>
+            <select name="Property type" id="Property type" required>
+                <option value="">--Property type--</option>
+                <option value="1BHK">1BHK</option>
+                <option value="2BHK">2BHK</option>
+                <option value="3BHK">3BHK</option>
+            </select>
+            <label for="Budget"></label>
+            <select name="Budget" id="Budget" required>
+                <option value="">--Budget--</option>
+                <option value="20-30 Lakh">20-30 Lakh</option>
+                <option value="30-45 Lakh">30-45 Lakh</option>
+                <option value="45-70 Lakh">45-70 Lakh</option>
+            </select>
+            <button type="submit">Search</button>
+            <input type="reset" value="Reset">
+        </form>
         <div class="Projects">
             <h1>PROJECT GALLERY</h1>
         </div>
@@ -72,36 +72,36 @@
                     <a href="incomplete.html"><h3>EMI Calculator</h3></a>
                 </figcaption>
             </figure>
-            </div>
-            <div class="Footer">
-                <h2 class="footer-text">What Makes Us A Preferred Choice</h2>
-            </div>
-            <div class="bottom-content">
-                <figure class="bot-content">
-                    <img src="Assets/Images/list.gif" class="icon1">
-                    <figcaption>
-                        <h3>Maximum Choices</h3>
-                    </figcaption>
-                </figure>
-                <figure class="bot-content">
-                    <img src="Assets/Images/shield.gif" class="icon2">
-                    <figcaption>
-                        <h3>Buyer's Trust</h3>
-                    </figcaption>
-                </figure>
-                <figure class="bot-content">
-                    <img src="Assets/Images/like.gif" class="icon3">
-                    <figcaption>
-                        <h3>Seller Prefer Us</h3>
-                    </figcaption>
-                </figure>
-                <figure class="bot-content">
-                    <img src="Assets/Images/expert.gif" class="icon4">
-                    <figcaption>
-                        <h3>Expert Guidance</h3>
-                    </figcaption>
-                </figure>   
-            </div>
+        </div>
+        <div class="Footer">
+            <h2 class="footer-text">What Makes Us A Preferred Choice</h2>
+        </div>
+        <div class="bottom-content">
+            <figure class="bot-content">
+                <img src="Assets/Images/list.gif" class="icon1">
+                <figcaption>
+                    <h3>Maximum Choices</h3>
+                </figcaption>
+            </figure>
+            <figure class="bot-content">
+                <img src="Assets/Images/shield.gif" class="icon2">
+                <figcaption>
+                    <h3>Buyer's Trust</h3>
+                </figcaption>
+            </figure>
+            <figure class="bot-content">
+                <img src="Assets/Images/like.gif" class="icon3">
+                <figcaption>
+                    <h3>Seller Prefer Us</h3>
+                </figcaption>
+            </figure>
+            <figure class="bot-content">
+                <img src="Assets/Images/expert.gif" class="icon4">
+                <figcaption>
+                    <h3>Expert Guidance</h3>
+                </figcaption>
+            </figure>   
+        </div>
     </div>
 </body>
 </html>
